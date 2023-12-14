@@ -1,0 +1,110 @@
+/* Website Styles */
+*{
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    box-sizing: border-box;
+    /* border: 1px  red solid; */
+}
+body {
+    background-color: wheat;
+    color: purple;
+    font-family: 'Kalnia', serif;
+    font-size: 24px;
+    margin: 70px;
+    background-image: url(images/pattern.webp);
+    background-repeat: repeat;
+}
+h1 {
+    color: purple;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+h3 {
+    font-size: 18px;
+}
+h1, h2, h3 {
+    color: rgb(224, 103, 224);
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer {
+    color: black;
+    font-weight: bold;
+}
+header p {
+    line-height: 2;
+    margin: 15px 0;
+}
+h1 {
+    text-align: center;
+}
+footer p {
+    font-size: 15px;
+}
+h1 p {
+    text-align:left;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color:blue;
+}
+header,section,footer {
+    padding: 30px;
+}
+section {
+    border: 1px solid red;
+    background-color: rgb(231, 219, 202);
+    margin: 30px; 
+    width: 50%; 
+    height: 50%;
+}
+header {
+    border-bottom: 5px solid grey;
+}
+img {
+    height: 300px;
+}
+.title {
+    font-size: 60px;
+    text-decoration: Underline;
+}
+#oshie-son {
+    background-color: rgb(70, 233, 206);
+    color: purple;
+    font-weight: bold;
+}
+.oshie-echo {
+font-size: 48px;
+}
+img {
+    margin: 0 auto;
+    display: block;
+  }
+.o-and-s {
+    font-size: 48px;
+}
+.banner {
+    height: 200px;
+    background-image: url(images/water.avif);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
